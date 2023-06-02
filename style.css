@@ -4,25 +4,39 @@ body{
     text-align: center;
 }
 main{
-    margin-left: 25vw;
-    margin-right: 25vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
     background-color: #d8dee9;
 }
 .title{
-    font-size: 4rem
+    font-size: 62px;
 }
 .stripe{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+#duckPic{
+    font-size: 12px;
 }
 .moreDuckBTN{
-    width: 10vw;
-    height: 5vh;
-    font-size: x-large;
-    color: white;
     background-color: #5e81ac;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
     cursor: pointer;
-    margin: 2rem;
+    transition: background-color 0.3s ease;
+    margin: 2vh;
+}
+@media (max-width: 1024px) {
+#duckPic{
+        font-size: 8px;
+    }
+     main{
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
 }
 .moreDuckBTN:hover{
     background-color: #2e3440;
