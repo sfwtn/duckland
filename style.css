@@ -7,9 +7,12 @@ main{
     margin-left: 20vw;
     margin-right: 20vw;
     background-color: #d8dee9;
+    padding-bottom: 2vh;
 }
 .title{
     font-size: 62px;
+    margin-top: 0;
+    margin-bottom: 2vh;
 }
 .stripe{
     margin-top: 2vh;
@@ -34,8 +37,8 @@ main{
         font-size: 8px;
     }
      main{
-        margin-left: 10vw;
-        margin-right: 10vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
 }
 .moreDuckBTN:hover{
