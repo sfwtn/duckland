@@ -8,7 +8,6 @@ function getSubtitle(){
         'object Object',
         '|  ||  ||  | --',
         'a̵̧̧̛̦̳̠͙̟̗̺͍͎̼͍͈͓̤̝͛̅̄̈̓́͘͠͝a̶̖̻̬̲̭̯̺̫̪̠̱̞͂̔̆̊̓͘͝ͅạ̷̡͚͕̤͙̜̜̔̓́͑͛͛̃̕ä̷̢̛̜̤̖̞̗̰͓̣͔̜͉́͌á̷̡̨̰͕̟̟͎͙̠̖̬̮́̐̌̈́̃̅̈́̉͒̏́̇͊̚͝͝ͅa̵͔̗̭͕̮̩͇̺͈̤̍̃̔͐̽͆̏̇̽̀͘̚̚̕͠͠ͅa̸̢̛͔͉̭͓̬͖̼̺̟͔͉͛̄̈̈̑̈́͋̀̆̐̉̇̀͌̇͠a̷̡͙̘̜͈̥̬̫̺̿̔͘ͅa̵̢̧͍̺̩̻͔̳͕̞̗͙͓̮͌̎̍̀̀̊̍̿̂̈́̃́͆͌̄̚̕͜a̴̞͉̺̤̍̓͒͗̽̐͒̐͜͠',
-        'can probably run in Internet Explorer',
         'blood for the Blood God',
         'quack for your life',
         'greetings traveller',
@@ -37,7 +36,15 @@ function getSubtitle(){
         'if not friend, why friend shaped?',
         'OUCH',
         'some rubber ducks have forward facing eyes, implying that they are predators',
-        'IDDQD'
+        'IDDQD',
+        'still D-U-C-K',
+        'this is your final warning',
+        '418',
+        '[/87',
+        'aurora borealis',
+        'quack',
+        'BE NOT AFRAID',
+        'ayy'
         ];
     const randomIndex = Math.round(Math.random()*messages.length);
     document.getElementById("subtitle").innerHTML = messages[randomIndex];
